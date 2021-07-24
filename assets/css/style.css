@@ -37,7 +37,7 @@ header nav ul li {
   display: inline;
 }
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -73,6 +73,7 @@ section {
   background-position: center;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 .text {
@@ -124,7 +125,7 @@ section {
 }
 /*Sections*/
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   color: #024e76;
   border-bottom: 3px solid;
   border-color: #fce138;
@@ -292,4 +293,22 @@ section {
 }
 .flex-row {
   display: flex;
+}
+/*Media Queries*/
+/* Media query for smaller desktop screens and smaller*/
+@media screen and (max-width: 980px) {
+  header h1 a {
+  }
+}
+/* Media query for tablets and smaller*/
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 80px;
+  }
+}
+/* Media query for mobile phones and smaller*/
+@media screen and (max-width: 575px) {
+  header h1 {
+    font-size: 100px;
+  }
 }
