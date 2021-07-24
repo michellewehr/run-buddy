@@ -126,32 +126,25 @@ section {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
   border-color: #fce138;
-  display: inline-block;
-}
-.primary-border {
-  border-color: #fce138;
-}
-.secondary-border {
-  border-color: #39a6b2;
-}
-/*what-we-do section*/
-.intro {
+  padding-bottom: 20px;
   text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
+
+/*what-we-do section*/
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /*What-yout-do-section*/
 .steps {
-  text-align: center;
   background-color: #fce138;
 }
 .steps div {
@@ -175,7 +168,6 @@ section {
 }
 /*Trainer Section*/
 .trainers {
-  text-align: center;
 }
 .trainer {
   width: 900px;
@@ -193,12 +185,6 @@ section {
   float: left;
   width: 65%;
 }
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
-}
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -215,7 +201,6 @@ section {
 /*Reach Out Section*/
 .contact {
   background: #024e76;
-  text-align: center;
 }
 .contact h2 {
   color: #fce138;
@@ -245,4 +230,20 @@ section {
 }
 .contact-info a {
   color: #fce138;
+}
+/*Utility classes*/
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.primary-border {
+  border-color: #fce138;
+}
+.secondary-border {
+  border-color: #39a6b2;
+}
+.flex-row {
+  display: flex;
 }
